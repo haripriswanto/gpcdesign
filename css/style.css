@@ -9,7 +9,7 @@ html,
 body {
     margin: 0;
     font-size: 100%;
-    font-family: 'times new roman', sans-serif;
+    font-family: Georgia, "Bitstream Charter", serif;
     background: #fff;
 }
 
@@ -20,7 +20,7 @@ body a {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-    font-family: 'Poppins', sans-serif;
+    font-family: Georgia, "Bitstream Charter", serif;
 }
 
 body img {
@@ -41,7 +41,7 @@ input[type="search"] {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-    font-family: 'Poppins', sans-serif;
+    font-family: Georgia, "Bitstream Charter", serif;
 }
 
 h1,
@@ -51,7 +51,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: Georgia, "Bitstream Charter", serif;
     letter-spacing: 1px;
 }
 
@@ -257,7 +257,7 @@ nav.shift ul li a:hover:after {
 }
 
 li.nav-item.active {
-    background: #15e99d;
+    outline-color: #08a4ecef;
 }
 
 
@@ -572,9 +572,9 @@ p.ab {
 
 .callbacks_container {
     position: relative;
-    float: left;
+    float: center;
     width: 100%;
-    min-height: 20%;
+    min-height: 10%;
 }
 
 .callbacks {
@@ -594,7 +594,7 @@ p.ab {
 .callbacks img {
     position: relative;
     z-index: 1;
-    height: auto;
+    height: 10%;
     border: 0;
 }
 
@@ -744,7 +744,7 @@ p.ab {
 
 .slider {
     position: relative;
-    min-height: 150px;
+    height: 20%;
 }
 
 
@@ -1713,7 +1713,7 @@ a.b-home:hover {
     letter-spacing: 1px;
     font-size: 1em;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: Georgia, "Bitstream Charter", serif;
 }
 
 .main_grid_contact input[type="text"],
@@ -1751,7 +1751,7 @@ a.b-home:hover {
     font-weight: 600;
     cursor: pointer;
     border-radius: 0px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Georgia, "Bitstream Charter", serif;
 }
 
 .input-group1 input[type="submit"]:hover {
