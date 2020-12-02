@@ -9,7 +9,7 @@ html,
 body {
     margin: 0;
     font-size: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'times new roman', sans-serif;
     background: #fff;
 }
 
@@ -68,7 +68,9 @@ ul {
     padding: 0;
 }
 
+
 /*--/header --*/
+
 
 /*--/navbar--*/
 
@@ -105,8 +107,8 @@ li.nav-item {
     letter-spacing: 1px;
 }
 
-.navbar-light .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover,
@@ -125,6 +127,7 @@ li.nav-item {
     margin: 0;
     padding: 0;
 }
+
 
 /*---*/
 
@@ -154,6 +157,7 @@ nav ul li a:before {
 nav ul li a:hover {
     color: #555;
 }
+
 
 /* SHIFT */
 
@@ -191,7 +195,6 @@ nav.shift ul li a:hover:after {
 }
 
 
-
 /* Keyframes */
 
 @-webkit-keyframes fill {
@@ -209,6 +212,7 @@ nav.shift ul li a:hover:after {
         background: #333;
     }
 }
+
 
 /* Keyframes */
 
@@ -239,6 +243,7 @@ nav.shift ul li a:hover:after {
     }
 }
 
+
 /*---*/
 
 .dropdown-toggle::after {
@@ -254,6 +259,7 @@ nav.shift ul li a:hover:after {
 li.nav-item.active {
     background: #15e99d;
 }
+
 
 /*--/search--*/
 
@@ -298,7 +304,9 @@ form.header-search {
     border-radius: 0;
 }
 
+
 /*--//search--*/
+
 
 /*-- /search --*/
 
@@ -307,11 +315,15 @@ form.header-search {
     margin: 0.8em 1em;
 }
 
+
 /*-- //header --*/
+
 
 /*-- /w3layouts-banner-info --*/
 
+
 /*--*/
+
 
 /*-- //top-nav --*/
 
@@ -355,9 +367,12 @@ a.read:hover {
     border: 2px solid #ec1c24;
 }
 
+
 /*-- //w3layouts-banner-info --*/
 
+
 /*-- /slider --*/
+
 
 /*-- w3layouts-banner-info-top --*/
 
@@ -451,7 +466,9 @@ a.read:hover {
     min-height: 150px;
 }
 
+
 /*-- //w3layouts-banner-info-top --*/
+
 
 /*--social_media_icons_style--*/
 
@@ -498,6 +515,7 @@ p.ab {
     z-index: 99;
 }
 
+
 /*--//social_media_icons_style--*/
 
 .thim-click-to-bottom {
@@ -524,7 +542,9 @@ p.ab {
     text-align: center;
 }
 
+
 /*-- hover-effect --*/
+
 
 /*--slider--*/
 
@@ -554,7 +574,7 @@ p.ab {
     position: relative;
     float: left;
     width: 100%;
-    min-height: 120px;
+    min-height: 20%;
 }
 
 .callbacks {
@@ -593,6 +613,7 @@ p.ab {
     top: 10%;
     text-align: center;
 }
+
 
 /***
 .callbacks_nav {
@@ -702,6 +723,7 @@ p.ab {
     margin: 0px 4px;
 }
 
+
 /*----*/
 
 .callbacks_tabs a {
@@ -725,7 +747,9 @@ p.ab {
     min-height: 150px;
 }
 
+
 /*-- //slider --*/
+
 
 /* Global Button Styles */
 
@@ -775,6 +799,7 @@ a.animated-button:visited:hover:after {
     height: 450%;
 }
 
+
 /* Victoria Buttons */
 
 a.animated-button.victoria-two {
@@ -789,7 +814,9 @@ a.animated-button.victoria-two:after {
     transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
 
+
 /*--//w3layouts-banner-info --*/
+
 
 /*--/w3layouts-banner-info-bottom --*/
 
@@ -814,6 +841,7 @@ p.para {
     color: #7b7878;
     font-weight: 600;
 }
+
 
 /*--/ab-text-con --*/
 
@@ -842,9 +870,12 @@ p.para {
     color: #ec1c24;
 }
 
+
 /*--//ab-text-con --*/
 
+
 /*--//w3layouts-banner-info-bottom --*/
+
 
 /*--/time-line --*/
 
@@ -856,7 +887,9 @@ p.para {
     background: #f7f7f7;
 }
 
+
 /*--//time-line --*/
+
 
 /*--/team--*/
 
@@ -898,7 +931,9 @@ p.para {
     margin-top: 1em;
 }
 
+
 /*--//team--*/
+
 
 /*-- effect --*/
 
@@ -909,6 +944,7 @@ p.para {
     list-style: none;
     text-align: center;
 }
+
 
 /* Common style */
 
@@ -949,7 +985,7 @@ p.para {
 }
 
 .galsses-grid-left figure figcaption,
-.galsses-grid-left figure figcaption > a {
+.galsses-grid-left figure figcaption>a {
     position: absolute;
     top: 0;
     left: 0;
@@ -957,7 +993,9 @@ p.para {
     height: 100%;
 }
 
+
 /***** Lexi *****/
+
 
 /*---------------*/
 
@@ -1050,6 +1088,7 @@ figure.effect-lexi:hover p {
     transform: translate3d(0, 0, 0);
 }
 
+
 /*-- //effect --*/
 
 .galsses-grid-right h5 {
@@ -1078,6 +1117,7 @@ span.post-color {
     font-size: 3em;
     color: #15e99d;
 }
+
 
 /*-- Pricing --*/
 
@@ -1157,7 +1197,9 @@ a.btn.read-more {
     border: 2px solid #15e99d;
 }
 
+
 /*--// Pricing --*/
+
 
 /*--/newsletter--*/
 
@@ -1213,6 +1255,7 @@ a.btn.read-more {
 .galsses-grid-right {
     padding: 0 5em 0 2em;
 }
+
 
 /*--//newsletter--*/
 
@@ -1274,6 +1317,7 @@ a.carousel-control-prev.test {
     min-height: 500px;
 }
 
+
 /*--/w3layouts-banner-info-inner--*/
 
 .banner-inner {
@@ -1310,13 +1354,14 @@ ol.breadcrumb {
     font-size: 2em;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     display: inline-block;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     color: #ffffff;
     content: "/";
 }
+
 
 /*-- stats --*/
 
@@ -1368,6 +1413,7 @@ h3.tittle.fea {
     font-size: 2.3em;
 }
 
+
 /*--responsive--*/
 
 @media(max-width:900px) {
@@ -1413,7 +1459,9 @@ h3.tittle.fea {
     }
 }
 
+
 /*--//about --*/
+
 
 /*--/feactured-services --*/
 
@@ -1458,9 +1506,12 @@ h3.tittle.fea {
     margin-bottom: 0.5em;
 }
 
+
 /*--//feactured-services --*/
 
+
 /*--//w3layouts-banner-info-inner--*/
+
 
 /*-- /error --*/
 
@@ -1604,7 +1655,9 @@ a.b-home:hover {
     }
 }
 
+
 /*-- //error --*/
+
 
 /*-- Contact --*/
 
@@ -1739,7 +1792,9 @@ a.b-home:hover {
     color: #7c848c;
 }
 
+
 /*-- //Contact --*/
+
 
 /*--footer--*/
 
@@ -1801,7 +1856,9 @@ address.ad-info strong {
     padding-top: 3em;
 }
 
+
 /*--//footer--*/
+
 
 /*--/toTop--*/
 
@@ -1820,7 +1877,9 @@ address.ad-info strong {
     font-size: 0;
 }
 
+
 /*--//toTop--*/
+
 
 /*--responsive--*/
 
@@ -1903,7 +1962,6 @@ address.ad-info strong {
     h3.tittle {
         font-size: 2.5em;
     }
-
 }
 
 @media(max-width:1050px) {
@@ -1922,7 +1980,6 @@ address.ad-info strong {
         margin: 0 auto;
         width: 75%;
     }
-
 }
 
 @media(max-width:1024px) {}
@@ -1939,7 +1996,7 @@ address.ad-info strong {
     .dropdown-item {
         text-align: center;
     }
-    .active > .nav-link,
+    .active>.nav-link,
     .navbar-light .navbar-nav .nav-link.show,
     .navbar-light .navbar-nav .nav-link.active,
     .navbar-light .navbar-nav .nav-link:hover {
@@ -2090,7 +2147,6 @@ address.ad-info strong {
     .w3layouts-banner-info {
         padding-top: 4em;
     }
-
 }
 
 @media(max-width:768px) {}
@@ -2197,7 +2253,6 @@ address.ad-info strong {
         font-size: 13px;
         margin: 0.3em 0.3em 0em;
     }
-
 }
 
 @media(max-width:480px) {
@@ -2374,5 +2429,6 @@ address.ad-info strong {
         font-size: 0.7em;
     }
 }
+
 
 /*--//responsive--*/

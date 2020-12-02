@@ -12,6 +12,7 @@
     letter-spacing: 2px;
     font-size: 0.9em;
 }
+
 .sp-slides-container {
     position: relative
 }
@@ -366,7 +367,7 @@
 }
 
 .sp-selected-button {
-    background-color:#ec1c24;
+    background-color: #ec1c24;
     border: 2px solid #ec1c24;
 }
 
