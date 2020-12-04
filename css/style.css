@@ -24,6 +24,10 @@
     margin-top:16px;
 }
 
+.gpc{
+    background: url(../images/1.logo.png) no-repeat 0px 0px;
+}
+
 html,
 body {
     margin: 0;
@@ -95,11 +99,12 @@ ul {
 
 .navbar {
     padding: 0.8em 2em;
+    background: #037c97;
 }
 
 a.navbar-brand {
     font-size: 1em;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
     color: #3d3e48;
 }
@@ -116,11 +121,17 @@ a.navbar-brand {
 li.nav-item {
     margin: 0 1px;
 }
+li.nav-item:hover {
+    /* margin: 0 1px; */
+    background: #0386a3;
+    outline: #0b91af 2px solid;
+    border-radius: 20% solid;
+}
 
 .navbar-light .navbar-nav .nav-link {
     padding: 0.6em 1.4em;
     color: #757474;
-    background: transparent;
+    /* background: transparent; */
     text-transform: uppercase;
     font-size: 0.9em;
     letter-spacing: 1px;
@@ -132,7 +143,7 @@ li.nav-item {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    background: transparent;
+    /* background: transparent; */
     color: #3c3a3a;
 }
 
@@ -590,14 +601,15 @@ p.ab {
 }
 
 .callbacks_container {
-    position: relative;
+    position: center;
+    align-content: center;
     float: center;
     width: 100%;
     min-height: 10%;
 }
 
 .callbacks {
-    position: relative;
+    position: center;
     list-style: none;
     overflow: hidden;
     width: 100%;
@@ -763,7 +775,7 @@ p.ab {
 
 .slider {
     position: relative;
-    height: 20%;
+    height: 10%;
 }
 
 
@@ -1838,7 +1850,7 @@ footer {
 
 .logo h2 a {
     font-size: 1.3em;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
     color: #fff;
 }
@@ -2011,6 +2023,7 @@ address.ad-info strong {
     }
     li.nav-item {
         margin: 6px 0px 0 0;
+        outline: #037c97;
     }
     .dropdown-item {
         text-align: center;
@@ -2020,8 +2033,8 @@ address.ad-info strong {
     .navbar-light .navbar-nav .nav-link.active,
     .navbar-light .navbar-nav .nav-link:hover {
         color: #555;
-        text-shadow: 1px 1px 2px #000000;
-        border: 2px solid #ffffff;
+        /* text-shadow: 1px 1px 2px #000000; */
+        /* border: 2px solid #ffffff; */
         border-radius: 3px;
     }
     .navbar-light .navbar-nav .nav-link {
@@ -2031,9 +2044,11 @@ address.ad-info strong {
         color: #555;
     }
     #navbarSupportedContent {
-        background: #fff;
+        background: rgb(5, 181, 194);
         padding: 0.5em 0;
+
     }
+
     .cd-header-buttons {
         top: 20px;
         right: 60px;
@@ -2063,7 +2078,7 @@ address.ad-info strong {
         border-radius: 0;
     }
     #navbarSupportedContent {
-        background: #fff;
+        background: rgb(5, 181, 194);
         padding: 0.5em 0;
         position: absolute;
         width: 90%;

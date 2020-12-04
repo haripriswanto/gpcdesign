@@ -2664,7 +2664,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0062cc;
+    /* background-color: #0062cc; */
     border-color: #005cbf;
 }
 
@@ -4179,12 +4179,12 @@ tbody.collapse.show {
 
 .navbar-brand {
     display: inline-block;
+    font-size: 1.25rem;
+    white-space: nowrap;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 1.25rem;
     line-height: inherit;
-    white-space: nowrap;
 }
 
 .navbar-brand:hover,
@@ -4230,7 +4230,7 @@ tbody.collapse.show {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #0069d9;
+    /* background-color: #0069d9; */
 }
 
 .navbar-toggler {
@@ -4307,7 +4307,7 @@ tbody.collapse.show {
         display: flex !important;
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
-        background-color: #0069d9;
+        /* background-color: #0069d9; */
     }
     .navbar-expand-sm .navbar-toggler {
         display: none;
@@ -4364,7 +4364,7 @@ tbody.collapse.show {
         display: flex !important;
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
-        background-color: #0069d9;
+        /* background-color: #0069d9; */
     }
     .navbar-expand-md .navbar-toggler {
         display: none;
@@ -4421,7 +4421,7 @@ tbody.collapse.show {
         display: flex !important;
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
-        background-color: #0069d9;
+        /* background-color: #0069d9; */
     }
     .navbar-expand-lg .navbar-toggler {
         display: none;
@@ -4478,7 +4478,7 @@ tbody.collapse.show {
         display: flex !important;
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
-        background-color: #0069d9;
+        /* background-color: #0069d9; */
     }
     .navbar-expand-xl .navbar-toggler {
         display: none;
@@ -4532,17 +4532,13 @@ tbody.collapse.show {
     flex-wrap: nowrap;
 }
 
-.mx-auto {
-    background-color: #0069d9;
-}
-
 .navbar-expand .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-    background-color: #0069d9;
+    /* background-color: #17a2b8; */
 }
 
 .navbar-expand .navbar-toggler {
